@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Text  Effect </title>
+    <style>
+        .text1
+        {
+            white-space: nowrap;
+            width: 200px;
+            border: 1px solid black;
+            overflow: hidden;
+            text-overflow: clip;
+        }
+        .text2
+        {
+            white-space: nowrap;
+            width: 200px;
+            border: 1px solid black;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .text1:hover{
+            overflow: visible;
+        }
+        .text2:hover{
+            overflow: visible;
+        }
+        .text3
+        {
+            width:300px;
+            border: solid;
+          /* word-wrap: break-word;
+            word-break: keep-all;*/
+            word-break: break-all;
+        
+        }
+        span.ap{
+      writing-mode: vertical-lr;
+        }
+        .text5
+        {
+            writing-mode: vertical-lr;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>text flow property</h1>
+    <p class="text1">All of you need to submit valid certificate obtained from Infosys Springboard. 
+        I hope as of now each one of you might have received the certificate. 
+        Those who have submitted any other proof of completion may not be considered for evaluation,
+         hence all such students should follow below instructions to Upload the actual </p>
+         <p class="text2">All of you need to submit valid certificate obtained from Infosys Springboard. 
+            I hope as of now each one of you might have received the certificate. 
+            Those who have submitted any other proof of completion may not be considered for evaluation,
+             hence all such students should follow below instructions to Upload the actual </p>
+             <p class="text3">All of you need to submit valid certificate obtained from Infosys Springboard. 
+                I hope as of now each one of you might have received the certificate. 
+                Those who have submitted any other proof of completion may not be considered for evaluation,
+                 hence all such students should follow below instructions to Upload the actual </p>
+        
+               <p class="span">this is<span
+               class="ap">paragraph</span></p>
+        
+               <p> <span clss="text5"> paragraph </span> All of you need to submit valid certificate obtained from Infosys Springboard. 
+                I hope as of now each one of you might have received the certificate. 
+                Those who have submitted any other proof of completion may not be considered for evaluation,
+                 hence all such students should follow below instructions to Upload the actual </p>
+        
+                </body>
+</html>

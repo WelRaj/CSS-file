@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+
+    <style>
+    
+     #grad
+    {
+        padding: 30px;
+        height: 200px;
+        background-color: red;
+        background-image: linear-gradient(to bottom right ,red,green);
+       
+    }
+     #grad1
+    {
+        padding: 30px;
+        height: 200px;
+        background-color: red;
+        background-image: radial-gradient
+        (closest-corner at 60% 50%,red,yellow);
+       
+    }
+    </style>
+    </head>
+<body>
+    <div id="grad">
+        <p> linear gradient </p>
+    </div>
+    <div id="grad1">
+        <p>radial gradient</p>
+    </div>
+</body>
+</html>

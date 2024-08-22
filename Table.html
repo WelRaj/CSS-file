@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Table</title>
+    <style>
+        table ,th,td{
+            border: 2px solid;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th{
+            height: 50px;
+        }
+        td{
+            text-align: center;
+            height: 30px;
+            padding: 15px;
+            vertical-align: middle;
+        }
+        tr:hover{
+            background-color: blue;
+        }
+        tr:nth-child(odd){
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <h2>User Information Table</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>25</td>
+                <td>United States</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>30</td>
+                <td>Canada</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+
+</body>
+</html>

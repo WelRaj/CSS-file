@@ -1,0 +1,26 @@
+body
+
+    {            
+        background-color: white;
+        border: 2px solid white;
+        background-image: url(/imagess/bg1.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position : right;
+        background-size: center;
+        
+     }
+
+    p{
+        color: #181b16;
+        text-align: center;
+        background-color: aquamarine;
+        background-image: url(/imagess/bg2.jpg);
+
+    }
+    h1{
+        color: rgb(221, 214, 214);
+        text-align: center ;
+        background-color: red;
+        border: 2px solid black;
+    }

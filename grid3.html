@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Element</title>
+    <style>
+      .container
+      {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto ;
+        background-color: rgb(58, 58, 232);
+        padding: 11px;
+      /*  row-gap: 25px;
+        column-gap: 25px;*/
+        gap: 10px;
+      }
+      .item
+      {
+        background-color: rgb(207, 147, 219);
+        border: 1px solid;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+      .item1
+      {
+    
+       grid: area 1px; ;
+      }
+      .item2
+      {
+        grid-area: right;
+      }
+      .item3
+      {
+        grid-area: main;
+      .item4
+      {
+        grid-area: Right;
+      }
+    </style>
+</head>
+<body>
+    <h1>grid Elements</h1>
+    <p>In grid layout must have a parents element with <em>display
+    </em> set as <em>grid</em> or <em>inline grid</em></p>
+    <div class="container">
+        <div class="item item1">header</div>
+        <div class="item item2">menu</div>
+        <div class="item item3">main</div>
+        <div class="item item4">Right</div>
+        <div class="item item5">footer</div>
+        <!-- <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item item8">8</div>
+        <div class="item">9</div>
+        <div class="item">10</div>
+        <div class="item">11</div>
+        <div class="item">12</div>
+        <div class="item">13</div>
+        <div class="item">14</div>
+        <div class="item">15</div>
+      -->
+    </div>
+</body>
+</html>
